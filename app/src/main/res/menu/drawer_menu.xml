@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/flight_menu" android:title="Flights" android:icon="@drawable/ic_airplane"
+        android:iconTint="@color/colorPrimaryDark"/>
+    <item android:id="@+id/bus_menu" android:title="Bus" android:icon="@drawable/ic_bus"
+        android:iconTint="@color/colorPrimaryDark"/>
+    <item android:id="@+id/train_menu" android:title="Train" android:icon="@drawable/ic_train"
+        android:iconTint="@color/colorPrimaryDark"/>
+    <item android:id="@+id/settings_menu" android:title="Settings" android:icon="@drawable/ic_settings"
+        android:iconTint="@color/colorPrimaryDark"/>
+    <item android:id="@+id/share_app" android:title="Share App" android:icon="@drawable/ic_share"
+        android:iconTint="@color/colorPrimaryDark"/>
+</menu>

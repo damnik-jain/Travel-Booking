@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="train_source_list">
+        <item>@string/train_source1</item>
+        <item>@string/train_source2</item>
+        <item>@string/train_source3</item>
+    </array>
+    <array name="train_destination_list">
+        <item>@string/train_source1</item>
+        <item>@string/train_source2</item>
+        <item>@string/train_source3</item>
+    </array>
+</resources>

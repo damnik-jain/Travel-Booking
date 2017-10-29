@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name" translatable="false">Testing Project</string>
+    <string name="flight_menu_description" translatable="false">Flight menu</string>
+    <string name="train_menu_description" translatable="false">Train Menu</string>
+    <string name="bus_menu_description" translatable="false">Bus Menu</string>
+    <string name="drawer_open" translatable="false">Open</string>
+    <string name="drawer_close" translatable="false">Close</string>
+    <string name="train_source1" translatable="false">Mumbai</string>
+    <string name="train_source2" translatable="false">Delhi</string>
+    <string name="train_source3" translatable="false">Nagpur</string>
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:id="@+id/train_image"
+        android:layout_width="match_parent"
+        android:layout_height="215dp"
+        android:src="@drawable/travel4"
+        />
+    <TextView
+        android:id="@+id/selection_textview"
+        android:layout_below="@+id/train_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Source and Destination:"
+        android:padding="8dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="24sp"/>
+
+    <Spinner
+        android:id="@+id/train_source_spinner"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        style="@android:style/Widget.Holo.Light.Spinner"
+        android:layout_above="@+id/train_destination_spinner"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:id="@+id/train_destination_spinner"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        style="@android:style/Widget.Holo.Light.Spinner"
+        android:layout_above="@+id/train_book_button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/train_book_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:text="Book"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+
+</RelativeLayout>
