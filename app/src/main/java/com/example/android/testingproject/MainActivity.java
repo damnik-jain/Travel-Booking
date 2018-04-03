@@ -128,6 +128,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 break;
             case "train": startActivity(new Intent(this, TrainActivity.class));
                 break;
+            default: break;
         }
     }
 

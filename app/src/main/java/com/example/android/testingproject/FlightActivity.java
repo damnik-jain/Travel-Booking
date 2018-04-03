@@ -10,5 +10,6 @@ public class FlightActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_flight);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        
     }
 }
