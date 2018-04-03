@@ -9,6 +9,7 @@ public class TrainTest extends AppCompatActivity {
 
     private TextView mSrcTextView;
     private TextView mDestTextView;
+	private TextView mTextView; 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
