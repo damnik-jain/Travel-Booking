@@ -9,6 +9,6 @@
         android:iconTint="@color/colorPrimaryDark"/>
     <item android:id="@+id/settings_menu" android:title="Settings" android:icon="@drawable/ic_settings"
         android:iconTint="@color/colorPrimaryDark"/>
-    <item android:id="@+id/share_app" android:title="Share App" android:icon="@drawable/ic_share"
+    <item android:id="@+id/share_app" android:title="Share " android:icon="@drawable/ic_share"
         android:iconTint="@color/colorPrimaryDark"/>
 </menu>
